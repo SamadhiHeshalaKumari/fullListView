@@ -26,6 +26,6 @@ public class PizzaAdapter  extends RecyclerView.Adapter<PizzaViewHolder> {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return PizzaDetails.length;
     }
 }
