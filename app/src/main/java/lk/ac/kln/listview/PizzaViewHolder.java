@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class PizzaViewHolder extends RecyclerView.ViewHolder{
 
-    LinearLayout linearLayout;
+    static LinearLayout linearLayout;
     TextView name;
     TextView price;
     TextView description;
